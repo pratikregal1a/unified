@@ -1,0 +1,119 @@
+{
+  "name": "Unified",
+  "description": "Unified Autmation",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Database.Activities": "[1.4.0]",
+    "UiPath.Excel.Activities": "[2.9.5]",
+    "UiPath.System.Activities": "[20.10.3]",
+    "UiPath.Testing.Activities": "[1.2.4]",
+    "UiPath.UIAutomation.Activities": "[20.10.6]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.2.0",
+  "projectVersion": "1.0.75910778",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": [
+        "Test cases/Accounting/Notes Receivable/Maintenance/Daily Interest Rate/Daily Interest Rate Tc's.xaml",
+        "Test cases/Accounting/Notes Receivable/Maintenance/Sub Note/SubNote Tc's.xaml"
+      ]
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "689fb26c-b87e-4504-82c4-95f3e037daba",
+        "fileName": "Test cases\\Accounting\\Notes Receivable\\Maintenance\\Sub Note\\Verify Add Sub Note functionality.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "8cfb1da3-5306-4a07-af43-9e651d9ca3be",
+        "fileName": "Test cases\\Accounting\\Notes Receivable\\Maintenance\\Sub Note\\Verify Edit existing Sub Note Functionality.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "14a526cd-9560-4058-b031-0928b4f8ac0a",
+        "fileName": "Test cases\\Accounting\\Notes Receivable\\Maintenance\\Sub Note\\Verify Invalid data functinality in Sub Note.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "9e791d70-4281-45bc-aef2-b06d8f06100a",
+        "fileName": "Test cases\\Home Screen\\Verify Login and Navigation to Home screen Functionality.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "be1dd103-37c4-42af-b6a9-9c99f717042e",
+        "fileName": "Test cases\\Accounting\\Notes Receivable\\Maintenance\\Daily Interest Rate\\Verify edit rate functionality for particular date.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "fdfc478e-63de-488b-aafc-24cad697a3bc",
+        "fileName": "Test cases\\Accounting\\Notes Receivable\\Maintenance\\Daily Interest Rate\\Verify add new rate functionality.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Test cases\\Accounting\\Notes Receivable\\Maintenance\\Sub Note\\Verify Add Sub Note functionality.xaml",
+      "uniqueId": "689fb26c-b87e-4504-82c4-95f3e037daba",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Test cases\\Accounting\\Notes Receivable\\Maintenance\\Sub Note\\Verify Edit existing Sub Note Functionality.xaml",
+      "uniqueId": "8cfb1da3-5306-4a07-af43-9e651d9ca3be",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Test cases\\Accounting\\Notes Receivable\\Maintenance\\Sub Note\\Verify Invalid data functinality in Sub Note.xaml",
+      "uniqueId": "14a526cd-9560-4058-b031-0928b4f8ac0a",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Test cases\\Home Screen\\Verify Login and Navigation to Home screen Functionality.xaml",
+      "uniqueId": "9e791d70-4281-45bc-aef2-b06d8f06100a",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Test cases\\Accounting\\Notes Receivable\\Maintenance\\Daily Interest Rate\\Verify edit rate functionality for particular date.xaml",
+      "uniqueId": "be1dd103-37c4-42af-b6a9-9c99f717042e",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Test cases\\Accounting\\Notes Receivable\\Maintenance\\Daily Interest Rate\\Verify add new rate functionality.xaml",
+      "uniqueId": "fdfc478e-63de-488b-aafc-24cad697a3bc",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
